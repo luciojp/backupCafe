@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    tools:context="com.cafesuspenso.ufcg.cafesuspenso.Fragment.AboutFragment"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/coffee"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="180dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:text="O café suspenso é uma tradição vinda da cidade de Nápoles, localizada no sul da Itália. Ao término da Segunda Guerra Mundial, muitas pessoas ficaram na miséria e com isso, a maioria das cafeterias italianas propôs aos clientes que deixassem um café pago  aos mais necessitados.Com o Aplicativo Café Suspenso, o usuário poderá compartilhar e resgatar café de forma fácil e por uma quantia irrisória. Participe você também dessa corrente! Entre em contato conosco e submeta um registro em nosso Sistema."
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="80dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23"
+            android:src="@drawable/lucio"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23"
+            android:src="@drawable/lucas"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23"
+            android:src="@drawable/matheus"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_height="80dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23"
+            android:src="@drawable/mendel"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23"
+            android:src="@drawable/wendley"/>
+    </LinearLayout>
+
+</LinearLayout>

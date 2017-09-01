@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Café Suspenso</string>
+    <string name="facebook_app_id">419963098402991</string>
+    <string name="fb_login_protocol_scheme">fb419963098402991</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_permission_error">Map permission error</string>
+    <string name="map_permission_error_title">Map permission error title</string>
+    <string name="message_gps_off">MESSAGE GPS OFF</string>
+    <string name="yes">YES</string>
+    <string name="no">no</string>
+    <string name="preference_file_key">preferencesUser</string>
+    <string name="more_about_underline"><u>More about our app!</u></string>
+    <string name="qr_code_prompt">Read QRCode</string>
+    <string name="qr_code_fail_menssage">QRCode fail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

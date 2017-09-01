@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "148286734490",
+    "firebase_url": "https://cafesuspenso-58b2b.firebaseio.com",
+    "project_id": "cafesuspenso-58b2b",
+    "storage_bucket": "cafesuspenso-58b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148286734490:android:6a52273c6ed470c8",
+        "android_client_info": {
+          "package_name": "com.cafesuspenso.ufcg.cafesuspenso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148286734490-jiqgqootb4gfub0ldal9gf29bpe7oq8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBREw5_Qd7yicfJFMdQJ-AWU6w3FEq_YXY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

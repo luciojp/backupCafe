@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.cafesuspenso.ufcg.cafesuspenso.Activity.RedeemCoffeeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Resgatar item"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/descriptionPlace"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Resgatando um item, você pode..."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Código"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Para gerar um código de resgate você deverá compartilhar o resgate em sua rede social!"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:id="@+id/codeRedeem"
+        android:textColor="@color/white"
+        android:text="2i7CB"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/share_btn"
+        android:text="Compartilhar "/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

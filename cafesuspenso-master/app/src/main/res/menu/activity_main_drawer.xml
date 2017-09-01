@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Mapa" />
+
+        <item
+            android:id="@+id/nav_my_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Meus compartilhamentos" />
+
+        <item
+            android:id="@+id/nav_my_redeem"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Meus resgates" />
+    </group>
+
+
+    <item android:title="Ranking">
+        <menu>
+            <item
+                android:id="@+id/nav_my_top_donator"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Top doadores" />
+
+            <item
+                android:id="@+id/nav_top_coffee_shop"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Top cafeterias" />
+        </menu>
+    </item>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Sobre o projeto" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

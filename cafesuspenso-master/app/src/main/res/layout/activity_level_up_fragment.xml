@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_name"
+    android:layout_width="300dp"
+    android:layout_height="210dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/original"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:id="@+id/status"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="LEVEL UP"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:id="@+id/text"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Você passou de level, agora você é um usuário pika das galáxias! Agora você pode resgatar muito mais cafés! Continue compartilhando para subir cada vez mais de level!"/>
+    </LinearLayout>
+</LinearLayout>

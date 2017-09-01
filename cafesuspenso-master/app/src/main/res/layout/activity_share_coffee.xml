@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.cafesuspenso.ufcg.cafesuspenso.Activity.ShareCoffeeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Compartilhar item"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/descriptionPlace"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Compartilhando um item, você pode..."
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Item:"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/txt_name_product"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Quantidade:"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+        <!--
+        <Spinner
+            android:id="@+id/spinner"
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+            -->
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Preço:"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/txt_preco"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="R$ 1,00"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:id="@+id/share_btn"
+            android:text="Concluir"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
